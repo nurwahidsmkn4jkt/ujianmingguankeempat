@@ -57,7 +57,7 @@ public class CheckoutPage {
     @FindBy(className = "woocommerce-terms-and-conditions-checkbox-text")
     WebElement terms;
 
-    @FindBy(xpath = "//*[@id=\"place_order\"]")
+    @FindBy(xpath = "//button[@id='place_order']")
     WebElement orderBtn;
 
     @FindBy(className = "woocommerce-error")
